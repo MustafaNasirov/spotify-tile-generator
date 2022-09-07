@@ -1,1 +1,1 @@
-# spotify-tile-generator
+# spotify-tiles-frontend
