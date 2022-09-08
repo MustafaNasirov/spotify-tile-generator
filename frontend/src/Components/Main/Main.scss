@@ -1,0 +1,35 @@
+@use "../../variables" as *;
+
+
+.container {
+    padding: 3rem;
+}
+
+.title {
+    color: $spotify-green;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.table-container {
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+    background-color: $spotify-green;
+    border: solid black .2rem;
+    border-radius: .15rem;
+
+    .table-container__headers{
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+
+}
+
+th, td{
+        padding: .25rem;
+        border: solid black 0.1rem;    
+}
+

@@ -1,0 +1,15 @@
+@use "../../variables" as *;
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: $spotify-green;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    margin: .25rem;
+
+    &--form{
+        background-color: white;
+        border: solid black 0.1rem;
+        border-radius: .25rem;
+    }
+}
